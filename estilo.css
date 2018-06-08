@@ -80,5 +80,19 @@ li a:hover{
     background-color: green;
 }
 img{
+    position: fixed;
+    border: red 3px solid;
+
+    /*
+    -estatica
+    -positon sticky n remove img da posição inicial, 
+        mas quando ela atinge uma posicao x ela assume aquela como fixed
+        em relação aos elementos que ela tem
+    -relative posiciona ela de forma relativa
+    -fixed visualização fixa no viewport
+    -absolut position top bottom left right é fixa em relação ao elemento anterior(pai)
+         que não está com posição estatica*/ 
+}
+article{
     position: relative;
 }
